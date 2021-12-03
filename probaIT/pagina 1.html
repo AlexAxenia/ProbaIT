@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans" /> -->
+
+    <title>Pagina1</title>
+    <link href="style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+<body>
+
+    <img class="sky" src="imagini/Sky.png">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <img class="bazaroo" src="imagini/Bazaroo.png">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-2 py-4">
+              <li class="nav-item px-3">
+                <button id="show-login" type="button" class="butonfil px-5 py-2" style="float: right">Logare</button>
+                <!-- <a class="nav-link active" aria-current="page" href="#">Logare</a> -->
+              </li>
+              <li class="nav-item px-5">
+                <button id="show-register" type="button" class="butonfil px-4 py-2" style="float: right">Creare cont</button>
+                <!-- <a class="nav-link" href="#">Creare cont</a> -->
+              </li>
+              <li class="nav-item px-1.5">
+                <a href="#referinta" type="button" class="butonfil px-5 py-2" style="float: right; text-decoration:none" >Contact</a>
+                <!-- <a class="nav-link" href="#">Contact</a> -->
+              </li>
+            </ul>
+            <!-- <span class="navbar-text">
+              Navbar text with an inline element
+            </span> -->
+          </div>
+        </div>
+      </nav>
+
+      <span style="color: red " id="error"></span>
+
+      <div class="container-fluid poz">
+            <div class="row">
+
+                  <div id="div1" class="col-sm-6 d-flex align-items-center justify-content-center" >
+                      <div class="c-article resize">
+                          <p class="scrismare px-5">Învățatul nu a fost niciodată mai simplu!</p>
+                             <span class="bloc">
+                                <p class="scrismic px-5">Platforma ideală pentru meditații online, atât pentru profesori, cât si pentru studenți.</p>
+                            </span>
+                      </div>
+                  </div>
+                
+
+                  <div id="div2" class="col col-sm-6 imgdreapta">
+                      <!-- <img id="imgdreapta" src="Imgdreapta.png"> -->
+                  </div>
+                  
+            </div>
+      </div>
+
+      <div class="container-fluid">
+
+            <div class="row top-buffer">
+                  <div class="col-sm dreptunghi container-fluid">
+
+                    <div class="row pad1">
+
+                         <div class="col-sm-12"></div>
+                                <p class="scris-dreptunghi text-center spatiere-titlu">Cum funcționează ?</p>
+                    </div>
+
+                    <div class="row pad2">
+                          <div class="col-6 scris-dr-first"> 
+                            <p class="text-center">Știi prea multe si vrei să predai? <br> <br> Înscrie-te ca profesor.</p>
+                          </div>
+                          <div class="col-6 scris-dr-first">
+                            <p class="text-center">Știi prea puține si vrei să înveți? <br> <br> Înscrie-te ca student.</p>
+                          </div>
+                    </div>
+
+                    <div class="row pad3">
+                      <div class="col-6 d-flex justify-content-center align-items-center">
+                        <button id="predau" type="button" class="buton-dr buton-style">Predau</button>
+                      </div>
+                      <div class="col-6 d-flex justify-content-center align-items-center">
+                        <button id="invat" type="button" class="buton-dr buton-style">Învăț</button>
+                      </div>
+                    </div>
+                    
+                  </div>
+            </div>
+            
+      </div>
+
+      <div class="container-fluid">
+
+        <div class="row top-buffer2">
+              <div class="col-sm dreptunghi2 container-fluid">
+
+                <div class="row pad1">
+
+                     <div class="col-sm-12"></div>
+                            <p class="scris-dreptunghi text-center spatiere-titlu" style="opacity: 0;">Cum funcționează ?</p>
+                </div>
+
+                <div class="row pad2">
+                      <div class="col-6 scris-dr-first"> 
+                        <p class="text-center" style="opacity: 0;">Știi prea multe si vrei să predai? <br> <br> Înscrie-te ca profesor.</p>
+                      </div>
+                      <div class="col-6 scris-dr-first">
+                        <p class="text-center" style="opacity: 0;">Știi prea puține si vrei să înveți? <br> <br> Înscrie-te ca student.</p>
+                      </div>
+                </div>
+
+                <div class="row pad3">
+                  <div class="col-6 d-flex justify-content-center align-items-center">
+                    <button type="button" class="buton-dr buton-style" style="opacity: 0;">Predau</button>
+                  </div>
+                  <div class="col-6 d-flex justify-content-center align-items-center">
+                    <button type="button" class="buton-dr buton-style" style="opacity: 0;">Învăț</button>
+                  </div>
+                </div>
+                
+              </div>
+        </div>
+        
+      </div>
+
+      <p style="margin-top: 20%; margin-left: 10%; font-size: 5vw; color:black">Ce zic utilizatorii?</p>
+
+      <div class="owl-carousel owl-theme owl-stage padsquares">
+
+        <div class="item">
+
+            <div class="row" style="margin-left: 8%; margin-right: 8%;">
+              <div class="col-3 d-flex justify-content-end align-items-end edge">
+                    <img src="imagini/user.png" style="height: 5vw; width: auto;">
+              </div>
+              <div class="col-5 d-flex justify-content-start align-items-end edge">
+                    <p style="color: black; text-align: left; font-size: 2vw; margin-bottom: 0%;">Andrei:</p>
+              </div>
+              <div class="col-4 d-flex justify-content-center edge">
+              
+              </div>
+            </div>
+
+            <div class="row" style="margin-left: 8%; margin-right: 8%;">
+                <div class="col-12 d-flex justify-content-start align-items-center" style="margin-top: 5%; margin-bottom: 10%;">
+                    <p style="color: black; text-align: left; font-size: 2vw; margin-top: 15%;">Mi-am luat în sfârșit restanța!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+          
+
+            <div class="row" style="margin-left: 8%; margin-right: 8%;">
+              <div class="col-3 d-flex justify-content-end align-items-end edge">
+                    <img src="imagini/user.png" style="height: 5vw; width: auto;">
+              </div>
+              <div class="col-5 d-flex justify-content-start align-items-end edge">
+                    <p style="color: black; text-align: left; font-size: 2vw; margin-bottom: 0%;">Dan:</p>
+              </div>
+              <div class="col-4 d-flex justify-content-center edge">
+              
+              </div>
+            </div>
+
+            <div class="row" style="margin-left: 8%; margin-right: 8%;">
+                <div class="col-12 d-flex justify-content-start align-items-center" style="margin-top: 5%; margin-bottom: 10%;">
+                    <p style="color: black; text-align: left; font-size: 2vw; margin-top: 15%;">Predare excelentă!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+          
+
+            <div class="row" style="margin-left: 8%; margin-right: 8%;">
+              <div class="col-3 d-flex justify-content-end align-items-end edge">
+                    <img src="imagini/user.png" style="height: 5vw; width: auto;">
+              </div>
+              <div class="col-5 d-flex justify-content-start align-items-end edge">
+                    <p style="color: black; text-align: left; font-size: 2vw; margin-bottom: 0%;">Daria:</p>
+              </div>
+              <div class="col-4 d-flex justify-content-center edge">
+              
+              </div>
+            </div>
+
+            <div class="row" style="margin-left: 8%; margin-right: 8%;">
+                <div class="col-12 d-flex justify-content-start align-items-center" style="margin-top: 5%; margin-bottom: 10%;">
+                    <p style="color: black; text-align: left; font-size: 2vw; margin-top: 15%;">Dacă nu ar fi fost Bazaroo n-aș fi reușit în viață!</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+      
+
+
+      <div id="referinta" class="container formular">
+      
+            <div class="row justify-content-center align items-center">
+                  <p style="text-align: center; font-weight: 1000; font-size: 2vw; margin-top: 2%;">Întâmpini dificultăți ? <br> Contactează-ne!</p>
+            </div>
+
+            <div class="row justify-content-center align-items-center" style="margin-top: 2%;">
+                <label for="nume" class="scris-formular">Nume:</label>
+                <input type="text" id="nume" name="nume"
+                style="border: 4px solid #000000; background: #FFFFFF; box-sizing: border-box; width:50%; font-size: 2vw;">
+            </div>
+
+            <div class="row justify-content-center align-items-center" style="margin-top: 3%;">
+                <label for="emailmesaj" class="scris-formular">Email:</label>
+                <input type="text" id="emailmesaj" name="emailmesaj"
+                style="border: 4px solid #000000; background: #FFFFFF; box-sizing: border-box; width:50%; font-size: 2vw;">
+            </div>
+
+            <div class="row justify-content-center align-items-center" style="margin-top: 3%;">
+                <label for="mesaj" class="scris-formular">Mesaj:</label>
+                <textarea id="mesaj" name="mesaj" rows="3"
+                style="border: 4px solid #000000; background: #FFFFFF; box-sizing: border-box; width:50%; font-size: 2vw; resize: none;">
+                </textarea>
+            </div>
+
+            <div class="row justify-content-center align-items-center">
+              <button type="button" class="buton-formular">
+                      <div style="font-weight: 1000; font-size: 1.5vw;" onclick="handleSubmit2()">Trimite</div>
+              </button>
+            </div>
+      
+      </div>
+
+      <div style="position: relative; margin-top: 10%">
+          <!-- <img src="Ocean.png" style="max-width: 50%; height: auto;"> -->
+          <img class="ocean" src="imagini/Ocean.png">
+
+              <button class="buton1"></button>
+              <button class="buton2"></button>
+              <button class="buton3"></button>
+      </div>
+
+
+      <!-- LOGIN POPUP -->
+      <div class="popup" style="margin: -1vw;">
+        <div class="close-btn"></div>
+        <div class="form">
+          <h2><div class="loginpopup">Login</div></h2>
+          <div>
+            <label for="email"><div class="emailpass" style="margin-top: 10%">Email:</div></label>
+            <input type="email" id="email" style="top: 0vw" placeholder="student@stud.upb.ro/prof@onmicrosoft.upb.ro">
+          </div>
+          <div>
+            <label for="password"><div class="emailpass">Parola:</div></label>
+            <input type="password" id="password" style="top: 0%">
+          </div>
+          <div style="top: 0%">
+            <p class="nuaicont" style="margin-bottom: -2%;">Nu ai cont?</p>
+            <a href="#" id="inregistreaza-te" style="color:#FFFFFF"><p style="color:#FFFFFF">Înregistrează-te</p></a>
+          </div>
+          <div>
+            <button type="button" class="buton-pop buton-style" onclick="handleSubmit()">Conectare</button>
+          </div>
+        </div>
+      </div>
+
+    
+
+      <!-- REGISTER POPUP -->
+      <div class="popup1" style="margin: -1vw;">
+        <div class="close-btn"></div>
+        <div class="form">
+          <h2>
+            <div class="loginpopup">Register</div>
+          </h2>
+
+          <select name="gen" id="gen" style="border-radius: 4vw; font-size: 2vw">
+            <option value="student">Student</option>
+            <option value="teacher">Profesor</option>
+          </select>
+
+          <div>
+            <label for="numeregister">
+              <div class="emailpass" style="margin-top: 10%">Nume:</div>
+            </label>
+            <input type="text" id="numeregister" style="top: 0vw">
+          </div>
+          <div>
+            <label for="prenumeregister">
+              <div class="emailpass">Prenume:</div>
+            </label>
+            <input type="text" id="prenumeregister" style="top: 0%">
+          </div>
+          <div>
+            <label for="emailregister">
+              <div class="emailpass">Email:</div>
+            </label>
+            <input type="email" id="emailregister" style="top: 0%" placeholder="student@stud.upb.ro/prof@onmicrosoft.upb.ro">
+          </div>
+          <div>
+            <label for="parolaregister">
+              <div class="emailpass">Parola:</div>
+            </label>
+            <input type="password" id="parolaregister" style="top: 0%">
+          </div>
+          <div>
+            <label for="reparolaregister">
+              <div class="emailpass">Confirmare parola:</div>
+            </label>
+            <input type="password" id="reparolaregister" style="top: 0%">
+          </div>
+          <div>
+            <button type="button" class="buton-pop buton-style" style="margin-top: 5%" onclick="handleSubmit1()">Inregistrare</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="bgpopup" class="box"></div>
+
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+
+
+</html>

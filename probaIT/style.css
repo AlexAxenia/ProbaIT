@@ -1,0 +1,781 @@
+.bazaroo
+{
+    position: absolute;
+    max-width: 20%;
+    height: auto;
+    left: 3%;
+    top: 20%;
+}
+
+ .sky
+{
+    position: absolute;
+    max-width: 75%;
+    height: auto;
+    top: 0%;
+    right: 0%;
+} 
+
+* {
+    font-family: Droid Sans;
+}
+
+.butonfil
+{
+    /* position: absolute;
+    width: 185px;
+    height: 53px;
+    left: 897px;
+    top: 37px; */
+
+    background: #272A45;
+    border-radius: 30px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+}
+
+/* .butontext
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+} */
+
+.navbar-light .navbar-toggler-icon
+{
+    background-image: url("imagini/hamburger.png") !important;
+}
+
+.navbar-light .navbar-toggler 
+{
+    color: transparent !important;
+    border-color: transparent !important;
+}
+
+#scrisstanga
+{
+    position: absolute;
+    max-width: 50%;
+    height: auto;
+    left: 10%;
+    top: 45%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+/* #imgdreapta
+{
+    position: absolute;
+    max-width: 30%;
+    height: auto;
+    right: 5%;
+    top: 25%;
+} */
+
+/* .poz
+{
+    position: absolute;
+    top: 30%;
+} */
+
+/* .bgdreapta
+{
+    /* background-image: url('Imgdreapta.png'); 
+    display: flex;
+    justify-content: center;
+} */
+
+/* #div1
+{
+    height: 500px;
+    min-width: 250px;
+} */
+
+/* #div2
+{
+    height: 500px;
+    min-width: 250px;
+} */
+
+/* .imgdreapta
+{
+    /* object-fit: contain; 
+    max-width: 100%;
+    height: auto; 
+} */
+
+.imgdreapta
+{
+     background-image: url(imagini/Imgdreapta.png);
+     background-position: center;
+     background-size: contain;
+     background-repeat: no-repeat;
+}
+
+.center 
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.scrismare
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.8vw;
+}
+
+.scrismic
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+}
+
+
+
+.bloc
+{
+    display: block;
+}
+
+@media screen and (max-width: 575px) 
+{
+    #div1
+    {
+        height: 150px;
+    }
+
+    #div2
+    {
+        height: 34vw;
+    }
+
+    .resize
+    {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .poz
+    {
+        position: absolute;
+        top: 15%;
+    }
+
+    .top-buffer
+    {
+        margin-top: 100%;
+        margin-left: 15%;
+        margin-right: 10%
+    }
+
+    .top-buffer2
+    {
+        margin-top: -32vw;
+        margin-left: 10%;
+        margin-right: 15%
+    } 
+
+    .dreptunghi
+    {
+        height: auto;
+        /* max-height: 200px; */
+        background: #272A45;
+        border-radius: 20px;
+
+        z-index: 1;
+    }
+
+    .dreptunghi2
+    {
+        height: auto;
+        /* max-height: 200px; */
+        background: linear-gradient(180deg, #B3F3FF 0%, #AEC5FF 100%);
+        opacity: 0.4;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        
+        z-index: 0;
+    }
+
+    .pad1
+    {
+        padding-bottom: 0%;
+    }
+
+    .pad2
+    {
+        padding-bottom: 0%;    
+    }
+
+    .pad3
+    {
+        padding-bottom: 0%;
+    }
+
+    .padsquares
+    {
+        /* padding-top: 20%; */
+        padding-left: 25%;
+        padding-right: 6%;
+    }
+
+    .item
+    {
+        background: linear-gradient(180deg, #B1E0FF 17.19%, #AEC0FF 71.35%);
+        /* background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 40%; */
+        margin-left: 15%;
+        margin-right: 5%;
+        border-radius: 20px;
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 335px)
+{
+    .top-buffer
+    {
+        margin-top: 320px;
+        margin-left: 10%;
+        margin-right: 10%
+    }
+
+    .top-buffer2
+    {
+        margin-top: -35vw;
+        margin-left: 5%;
+        margin-right: 15%
+    } 
+}
+
+@media screen and (min-width: 575px)
+{
+    #div1
+    {
+        height: 400px;
+        /* min-width: 250px; */
+    }
+
+    #div2
+    {
+        height: 400px;
+        /* min-width: 250px; */
+    }
+
+    .resize
+    {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .poz
+    {
+        position: absolute;
+        top: 30%;
+    }
+
+    .top-buffer
+    {
+        margin-top: 700px;
+        margin-left: 15%;
+        margin-right: 10%
+    }
+
+    .top-buffer2
+    {
+        margin-top: -38vw;
+        margin-left: 10%;
+        margin-right: 15%
+    }   
+
+    .dreptunghi
+    {
+        height: auto;
+        /* max-height: 200px; */
+        background: #272A45;
+        border-radius: 40px;
+
+        z-index: 1;
+    }
+
+    .dreptunghi2
+    {
+        height: auto;
+        /* max-height: 200px; */
+        background: linear-gradient(180deg, #B3F3FF 0%, #AEC5FF 100%);
+        opacity: 0.4;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        border-radius: 40px;
+        
+        z-index: 0;
+    }
+
+    .pad1
+    {
+        padding-bottom: 5%;
+    }
+
+    .pad2
+    {
+        padding-bottom: 4%;
+    }
+
+    .pad3
+    {
+        padding-bottom: 5%;
+    }
+
+    .padsquares
+    {
+        /* padding-top: 20%; */
+        padding-left: 1.75%;
+        padding-right: 6%;
+    }
+
+    .item
+    {
+        background: linear-gradient(180deg, #B1E0FF 17.19%, #AEC0FF 71.35%);
+        /* background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 75%; */
+        margin-left: 15%;
+        margin-right: 5%;
+        border-radius: 2.5vw;
+        /* width: 75%; */
+        min-height: 30vw;
+    }
+}
+
+/* .dreptunghi::before
+{
+    content: "";
+    display: block;
+    padding-top: 40%;
+} */
+
+/* .row-dreptunghi
+{
+    height: 400px;
+} */
+
+.scris-dreptunghi
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vw;
+    line-height: 50%;
+
+    color: #FFFFFF;
+    
+    margin-top: 9%;
+}
+
+.scris-dr-first
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8vw;
+    line-height: 50%;
+
+    color: #FFFFFF;
+
+    margin-top: 7%;
+}
+
+.buton-dr
+{
+    height: 4vw;
+    width: 14vw;
+    background: linear-gradient(180deg, #AFD0FF 0%, #B2EEFF 99.99%, rgba(175, 209, 255, 0) 100%);
+    border-radius: 30px;
+
+    margin-top: 5%;
+}
+
+.buton-style
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5vw;
+    line-height: 50%;
+
+    color: #000000;
+}
+
+
+/* .owl-stage {
+    margin-left: 2vw;
+} */
+
+
+.owl-next
+{
+    position: absolute;
+    top: 42%;
+    right: 2%;
+}
+
+.owl-prev
+{
+    position: absolute;
+    top: 42%;
+    left: 2%;
+}
+
+.arrow-resize
+{
+    width: 5vw;
+    height: auto;
+}
+
+.edge
+{
+    margin-top: 10%;
+    /* margin-bottom: 5%; */
+}
+
+.buton-formular
+{
+    height: 4.5vw;
+    width: 15vw;
+    background: linear-gradient(180deg, #AFD0FF 0%, #B2EEFF 99.99%, rgba(175, 209, 255, 0) 100%);
+    border-radius: 1.5vw;
+    margin-top: 5%;
+    border-color: transparent;
+}
+
+.scris-formular
+{
+    font-weight: 1000;
+    font-size: 1.5vw;
+    margin-left: -1%;
+    padding-left: 25.5%;
+}
+
+.formular
+{
+    margin-top: 10%;
+    width: 80%;
+    background-image: url("imagini/Frame.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.ocean
+{
+    max-height: 50%;
+    max-width: 70%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.buton1
+{
+    position: absolute;
+    right: 10%;
+    bottom: 0%;
+    background-image: url("imagini/facebook.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 4vw;
+    width: 4vw;
+    border: transparent;
+    background-color: transparent;
+}
+
+.buton2
+{
+    position: absolute;
+    right: 6%;
+    bottom: 0%;
+    background-image: url("imagini/instagram.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 4vw;
+    width: 4vw;
+    border: transparent;
+    background-color: transparent;
+}
+
+.buton3
+{
+    position: absolute;
+    right: 2%;
+    bottom: 0%;
+    background-image: url("imagini/twitter.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 4vw;
+    width: 4vw;
+    border: transparent;
+    background-color: transparent;
+}
+
+.center_popup
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.popup
+{
+    position: absolute;
+    top: -150%;
+    left: 50%;
+    transform:translate(-50%,-50%) scale(1.25);
+    width:50vw;
+    padding: 5vw 5vw;
+    background: #272A45;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.15);
+    border-radius:2vw;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 200ms ease-in-out 0ms;
+    z-index: 3;
+}
+
+.popup.active
+{
+    top:50%;
+    opacity:1;
+    transform:translate(-50%,-50%) scale(1);
+    transition: top 0ms ease-in-out 0ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 200ms ease-in-out 0ms;
+}
+
+.popup .close-btn
+{
+    position:absolute;
+    top:2vw;
+    right:2vw;
+    width:1.3vw;
+    height:1.3vw;
+    line-height:15px;
+    cursor:pointer;
+    background-image: url("imagini/x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+    background-color: transparent;
+}
+
+.popup .form h2
+{
+    text-align:center;
+    margin-top: 5%;
+}
+
+.popup .form input[type="text"],
+.popup .form input[type="password"],
+.popup .form input[type="email"]
+{
+    /* margin-top:5px; */
+    display:block;
+    width:100%;
+    padding:0.5vw;
+    outline:none;
+    border:1px solid #aaa;
+    border-radius:5px;
+    font-size: 1.5vw;
+}
+
+.emailpass
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3vw;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.loginpopup
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5vw;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.nuaicont
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vw;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.popup .form a
+{
+    display: block;
+    font-size: 1vw;
+}
+
+.buton-pop
+{
+    height: 4vw;
+    width: 14vw;
+    background: linear-gradient(180deg, #AFD0FF 0%, #B2EEFF 99.99%, rgba(175, 209, 255, 0) 100%);
+    border-radius: 30px;
+
+    margin-bottom: 2%;
+}
+
+
+
+.center_popup1
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.popup1
+{
+    position: absolute;
+    top: -150%;
+    left: 50%;
+    transform:translate(-50%,-50%) scale(1.25);
+    width:50vw;
+    padding: 5vw 5vw;
+    background: #272A45;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.15);
+    border-radius:2vw;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 200ms ease-in-out 0ms;
+    z-index: 3;
+}
+
+.popup1.active
+{
+    top:60%;
+    opacity:1;
+    transform:translate(-50%,-50%) scale(1);
+    transition: top 0ms ease-in-out 0ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 200ms ease-in-out 0ms;
+}
+
+.popup1 .close-btn
+{
+    position:absolute;
+    top:2vw;
+    right:2vw;
+    width:1.3vw;
+    height:1.3vw;
+    line-height:15px;
+    cursor:pointer;
+    background-image: url("imagini/x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: transparent;
+    background-color: transparent;
+}
+
+.popup1 .form h2
+{
+    text-align:center;
+    margin-top: 5%;
+}
+
+.popup1 .form input[type="text"],
+.popup1 .form input[type="password"],
+.popup1 .form input[type="email"]
+{
+    /* margin-top:5px; */
+    display:block;
+    width:100%;
+    padding:0.5vw;
+    outline:none;
+    border:1px solid #aaa;
+    border-radius:5px;
+    font-size: 1.5vw;
+}
+
+.emailpass
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3vw;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.loginpopup
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5vw;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.nuaicont
+{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vw;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+.popup1 .form a
+{
+    display: block;
+    font-size: 1vw;
+}
+
+.buton-pop
+{
+    height: 4vw;
+    width: 14vw;
+    background: linear-gradient(180deg, #AFD0FF 0%, #B2EEFF 99.99%, rgba(175, 209, 255, 0) 100%);
+    border-radius: 30px;
+    transform: translateX(+100%);
+    margin-bottom: 2%;
+}
+
+.box
+{
+    background:grey;
+    position:fixed;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    z-index:-1;
+    opacity: 0;
+}
+
+.box.active
+{
+    z-index: 2;
+    opacity: 75%;
+}
